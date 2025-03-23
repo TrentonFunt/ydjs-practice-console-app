@@ -31,20 +31,19 @@ This console application demonstrates:
     node prototype-demo.js
 
 ## 🚀 Usage
-    ```javascript
-      // Create a styled button with logging
-      const myButton = Object.create(FancyButton)
-      .setup('Submit', () => console.log('Click handler called!'));
+  ```javascript
+  // Create a styled button with logging
+  const myButton = Object.create(FancyButton)
+  .setup('Submit', () => console.log('Click handler called!'));
 
-      // Add logging capability
-      Object.assign(myButton, Loggable);
+  // Add logging capability
+  Object.assign(myButton, Loggable);
 
-      // Interact with component
-      myButton.render();
-      myButton.click();
-      myButton.setStyle({ padding: '20px' });
-    ```
-
+  // Interact with component
+  myButton.render();
+  myButton.click();
+  myButton.setStyle({ padding: '20px' });
+```
 
 ## 📊 Sample Output
 
